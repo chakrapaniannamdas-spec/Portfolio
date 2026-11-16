@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import InteractiveDiagram from "./components/InteractiveDiagram";
 import Skills from "./components/Skills";
 import Certifications from "./components/Certifications";
 import FinalCTA from "./components/FinalCTA";
@@ -55,6 +56,7 @@ export default function App() {
       <main>
         {renderSection("hero")}
         <ContinueWatching />
+        <InteractiveDiagram />
         {rest.map((id) => (<div key={id}>{renderSection(id)}</div>))}
         <Certifications />
         <FinalCTA />

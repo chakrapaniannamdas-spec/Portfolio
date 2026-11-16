@@ -67,9 +67,34 @@ export const portfolioData = {
     }
   ],
   projects: [
-    { title: "ELM Toolchain Transformation", role: "Product Owner · Daimler Truck AG", tech: ["Systems Engineering", "Toolchain Management", "Agile"], description: "Leading the architectural and process transformation of the Engineering Life Cycle Management platform at Daimler Truck to support growing vehicle projects and millions of requirements.", link: "#" },
-    { title: "Global E/E Platform Integration", role: "Technical Project Manager · Volkswagen AG", tech: ["E/E Architecture", "Functional Safety", "Supplier Management"], description: "Coordinated complex gateway ECU developments for Volkswagen, ensuring strict adherence to FuSi standards and seamless integration of hardware and software components across a multi-supplier network.", link: "#" },
-    { title: "Low-Cost Automation in Bus Assembly", role: "Master Thesis & Project Lead · Daimler Buses / EvoBus", tech: ["Automation", "Manufacturing", "Process Optimization"], description: "Designed and implemented a low-cost automation concept to improve overhead installation in bus assembly at EvoBus Mannheim. Achieved a verified project savings of €8.1 Million.", link: "#" }
+    { 
+      title: "ELM Toolchain Architecture Map", 
+      role: "Systems Engineering Visualizer", 
+      tech: ["Archify", "Interactive HTML", "Systems Engineering"], 
+      description: "An interactive, clickable map of the ELM toolchain transformation at Daimler Truck—generated with Archify from a natural-language description of the system.", 
+      link: "/elm-architecture.html" 
+    },
+    { 
+      title: "ELM Toolchain Transformation", 
+      role: "Product Owner · Daimler Truck AG", 
+      tech: ["Systems Engineering", "Toolchain Management", "Agile"], 
+      description: "Leading the architectural and process transformation of the Engineering Life Cycle Management platform at Daimler Truck to support growing vehicle projects and millions of requirements.", 
+      link: "#" 
+    },
+    { 
+      title: "Global E/E Platform Integration", 
+      role: "Technical Project Manager · Volkswagen AG", 
+      tech: ["E/E Architecture", "Functional Safety", "Supplier Management"], 
+      description: "Coordinated complex gateway ECU developments for Volkswagen, ensuring strict adherence to FuSi standards and seamless integration of hardware and software components across a multi-supplier network.", 
+      link: "#" 
+    },
+    { 
+      title: "Low-Cost Automation in Bus Assembly", 
+      role: "Master Thesis & Project Lead · Daimler Buses / EvoBus", 
+      tech: ["Automation", "Manufacturing", "Process Optimization"], 
+      description: "Designed and implemented a low-cost automation concept to improve overhead installation in bus assembly at EvoBus Mannheim. Achieved a verified project savings of €8.1 Million.", 
+      link: "#" 
+    }
   ],
   skills: {
     "Leadership & Management": ["Multi-Continent Team Leadership", "Cross-Functional Orchestration", "Technical–Organizational Bridge", "Execution Discipline", "Trust Architecture", "Coaching & Mentoring", "PMP", "Agile Scrum", "KVP / Kaizen", "Stakeholder Management"],
