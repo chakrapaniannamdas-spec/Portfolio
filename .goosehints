@@ -1,0 +1,2 @@
+Vite + React 18 + TypeScript. Never Next.js. All components .tsx.
+Content lives in src/data/portfolio.ts. Never hardcode bio text.
